@@ -1,0 +1,15 @@
+ to create typescript ptoject :
+
+ step1:npm init
+
+ step2:npm i typescript
+
+#  it will be genrate your typescript project 
+
+ step3 : you have to create any folder or file and assign name.ex file.ts
+
+ step4: to run the file in teminal select folder 
+
+ step5: npx tsc file.ts
+
+ step6: node file

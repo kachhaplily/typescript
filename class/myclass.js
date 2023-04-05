@@ -1,3 +1,4 @@
+// an interface 
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
         extendStatics = Object.setPrototypeOf ||
@@ -27,7 +28,7 @@ var student = /** @class */ (function () {
     };
     return student;
 }());
-var lily = new student(1, "lily", "vadodara");
+var lily = new student(1, "lily", { city: "vadodara", country: "india", pincode: 320012, state: "gujrat" });
 console.log(student.getsize()); //you can access only static by the class name not need to create an instance.
 console.log(lily.getName());
 var school = /** @class */ (function (_super) {
@@ -37,5 +38,5 @@ var school = /** @class */ (function (_super) {
     }
     return school;
 }(student));
-var fake = new school(2, "fake", "adi");
+var fake = new school(2, "fake", { city: "ahmedabad", country: "india", pincode: 320012, state: "gujrat" });
 // console.log(fake.name) can not access bcoz name is protected 
